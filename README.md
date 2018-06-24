@@ -22,4 +22,6 @@ Flask | 1.0.2
     python -m venv env
     source ./env/bin/activate
     pip install -r requirements.txt
+    cd src
+    export FLASK_APP=webapp.py
     python -m flask run
