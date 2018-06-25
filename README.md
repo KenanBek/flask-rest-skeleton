@@ -25,3 +25,10 @@ Flask | 1.0.2
     cd src
     export FLASK_APP=webapp.py
     python -m flask run
+
+## Check code styling
+
+After you have activated env you can check code styling using PyLint or PEP8 (pycodestyle).
+
+    pylint src/.
+    pycodestyle src/.
